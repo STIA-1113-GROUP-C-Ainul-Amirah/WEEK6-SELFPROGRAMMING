@@ -1,0 +1,29 @@
+package selfProgramming;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int year = 1580;
+		int month = 9;
+		int day = 23;
+		double d1 = 2.2 + 4.2;
+		double d2 = 6.6;
+		int d3 = 2 + 4;
+		int d4 = 6;
+		
+		
+		String s1= "Azman";
+		String s2= "man";
+
+		
+	    System.out.println((year >= 1580) && (month >= 1) && (month<= 12) && (day >= 1) && (day<= 31) );
+	    
+	    System.out.println((d1 >= d2 ) || (d1 == d2));
+	    System.out.println((d3 >= d4 ) || (d3 == d4));
+	    System.out.println(s1 == s2);
+	    
+	}
+
+}
